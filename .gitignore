@@ -1,0 +1,18 @@
+# Data files (too large for git)
+data/
+*.h5
+*.fits
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+hycean_environment.yml
+
+# Outputs
+outputs/
+*.png
+*.pdf
