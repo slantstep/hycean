@@ -24,7 +24,7 @@ See `docs/tutorials/` for examples.
 - [ ] Phase 3: Population study
 - [ ] Phase 4: Web interface
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.11+
