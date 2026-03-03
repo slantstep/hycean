@@ -5,7 +5,7 @@ Batch process multiple planets through the pipeline.
 
 import json
 from pathlib import Path
-from hycean.pipeline import HyceanPipeline
+from hycean import HyceanPipeline
 
 # Load planet database
 with open('configs/planet_database.json', 'r') as f:
