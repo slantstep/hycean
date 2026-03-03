@@ -1,0 +1,33 @@
+{
+  "id": "gj9827d",
+  "name": "GJ 9827 d",
+  "planet": {
+    "radius": 2.04,
+    "radius_error": 0.10,
+    "mass": 4.87,
+    "mass_error": 0.80,
+    "period": 6.20,
+    "semi_major_axis": 0.0514,
+    "equilibrium_temp": 650
+  },
+  "star": {
+    "name": "GJ 9827",
+    "Teff": 4290,
+    "radius": 0.658,
+    "mass": 0.661,
+    "luminosity": 0.132,
+    "spectral_type": "K6V",
+    "distance_pc": 30.3,
+    "V_mag": 10.4
+  },
+  "observations": {
+    "note": "JWST HST observations - steam world candidate"
+  },
+  "published_results": {
+    "atmosphere_detected": true,
+    "molecules": {
+      "H2O": {"detected": true, "significance": 5.0, "reference": "Piaulet+2023"}
+    },
+    "note": "Hot steam world, possibly evaporating"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "55cnce",
+  "name": "55 Cancri e",
+  "planet": {
+    "radius": 1.88,
+    "radius_error": 0.03,
+    "mass": 8.59,
+    "mass_error": 0.40,
+    "period": 0.736,
+    "semi_major_axis": 0.0154,
+    "equilibrium_temp": 2000
+  },
+  "star": {
+    "name": "55 Cancri",
+    "Teff": 5196,
+    "radius": 0.943,
+    "mass": 0.905,
+    "luminosity": 0.573,
+    "spectral_type": "G8V",
+    "distance_pc": 12.6,
+    "V_mag": 5.95
+  },
+  "observations": {
+    "note": "JWST MIRI observations"
+  },
+  "published_results": {
+    "atmosphere_detected": "uncertain",
+    "note": "Ultra-hot super-Earth, possibly lava world with thin atmosphere"
+  }
+}

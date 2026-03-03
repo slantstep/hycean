@@ -1,0 +1,631 @@
+======================================================================
+BATCH PROCESSING: Hycean Pipeline with QHF Habitability
+======================================================================
+Initialized pipeline for LHS 1140 b
+
+############################################################
+# HYCEAN PIPELINE: LHS 1140 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - LHS 1140 b
+============================================================
+Hycean Candidate: True (score: 75/100)
+  • Radius 1.73 R_Earth in Hycean range
+  • Temperate Hycean (T_eq=218 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - LHS 1140 b
+============================================================
+Loading NIRISS...
+  ✓ 142 bins, 0.65-2.65 µm
+Loading NIRSpec_G235H...
+  ✓ 39 bins, 1.68-3.05 µm
+Loading NIRSpec_G395H...
+  ✓ 37 bins, 2.90-5.15 µm
+
+Combined spectrum: 218 bins, 0.65-5.15 µm
+
+Flat Spectrum Test:
+  χ²_reduced = 2.65
+  Atmosphere detected: True
+
+Rayleigh Scattering:
+  α = -6.90 ± 3.22
+  Consistent with scattering: True
+
+Molecular Features:
+  — H2O_1.4um      : +0.00σ
+  — H2O_1.9um      : +0.00σ
+  — CO2_2.7um      : -0.00σ
+  — CH4_2.3um      : +0.00σ
+  — CO2_4.3um      : +0.00σ
+
+============================================================
+Stage 3: QHF Habitability - LHS 1140 b
+============================================================
+
+QHF Habitability Parameter: η = 0.119
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              727.6 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.20
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/lhs_1140_b_results.json
+Initialized pipeline for K2-18 b
+
+############################################################
+# HYCEAN PIPELINE: K2-18 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - K2-18 b
+============================================================
+Hycean Candidate: True (score: 100/100)
+  • Radius 2.61 R_Earth in Hycean range
+  • Low density 2.7 g/cm³ suggests volatiles
+  • Temperate Hycean (T_eq=264 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - K2-18 b
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - K2-18 b
+============================================================
+
+QHF Habitability Parameter: η = 0.195
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              1553.8 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.20
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/k2-18b_results.json
+Initialized pipeline for TOI-270 d
+
+############################################################
+# HYCEAN PIPELINE: TOI-270 d
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - TOI-270 d
+============================================================
+Hycean Candidate: True (score: 85/100)
+  • Radius 2.53 R_Earth in Hycean range
+  • Moderate density 4.1 g/cm³
+  • Hot Hycean (T_eq=365 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - TOI-270 d
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - TOI-270 d
+============================================================
+
+QHF Habitability Parameter: η = 0.191
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              5692.7 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.50
+  Stability timescale:      15.0 Gyr
+
+✓ Results saved to data/outputs/toi270d_results.json
+Initialized pipeline for GJ 9827 d
+
+############################################################
+# HYCEAN PIPELINE: GJ 9827 d
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - GJ 9827 d
+============================================================
+Hycean Candidate: True (score: 70/100)
+  • Radius 2.04 R_Earth in Hycean range
+  • Low density 3.2 g/cm³ suggests volatiles
+  • Very hot (T_eq=678 K) - marginal
+  • K dwarf host (good for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - GJ 9827 d
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - GJ 9827 d
+============================================================
+
+QHF Habitability Parameter: η = 0.000
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✗ Unlikely habitable
+
+Interpretation: Unlikely habitable (η < 0.1)
+
+Component Breakdown:
+  Energy flux:              68006.3 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.00
+  Stability timescale:      15.0 Gyr
+
+✓ Results saved to data/outputs/gj9827d_results.json
+Initialized pipeline for TOI-732 c
+
+############################################################
+# HYCEAN PIPELINE: TOI-732 c
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - TOI-732 c
+============================================================
+Hycean Candidate: True (score: 85/100)
+  • Radius 2.37 R_Earth in Hycean range
+  • Moderate density 4.3 g/cm³
+  • Hot Hycean (T_eq=403 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - TOI-732 c
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - TOI-732 c
+============================================================
+
+QHF Habitability Parameter: η = 0.035
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✗ Unlikely habitable
+
+Interpretation: Unlikely habitable (η < 0.1)
+
+Component Breakdown:
+  Energy flux:              8434.2 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.20
+  Stability timescale:      15.0 Gyr
+
+✓ Results saved to data/outputs/toi732c_results.json
+Initialized pipeline for GJ 1214 b
+
+############################################################
+# HYCEAN PIPELINE: GJ 1214 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - GJ 1214 b
+============================================================
+Hycean Candidate: True (score: 50/100)
+  • Low density 1.9 g/cm³ suggests volatiles
+  • Very hot (T_eq=501 K) - marginal
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - GJ 1214 b
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - GJ 1214 b
+============================================================
+
+QHF Habitability Parameter: η = 0.000
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✗ Unlikely habitable
+
+Interpretation: Unlikely habitable (η < 0.1)
+
+Component Breakdown:
+  Energy flux:              20232.8 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.00
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/gj1214b_results.json
+Initialized pipeline for TOI-421 b
+
+############################################################
+# HYCEAN PIPELINE: TOI-421 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - TOI-421 b
+============================================================
+Hycean Candidate: True (score: 100/100)
+  • Radius 2.68 R_Earth in Hycean range
+  • Low density 2.1 g/cm³ suggests volatiles
+  • Temperate Hycean (T_eq=332 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - TOI-421 b
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - TOI-421 b
+============================================================
+
+QHF Habitability Parameter: η = 0.404
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              3911.6 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.50
+  Stability timescale:      15.0 Gyr
+
+✓ Results saved to data/outputs/toi421b_results.json
+Initialized pipeline for LP 791-18 c
+
+############################################################
+# HYCEAN PIPELINE: LP 791-18 c
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - LP 791-18 c
+============================================================
+Hycean Candidate: True (score: 80/100)
+  • Radius 1.42 R_Earth (small Hycean candidate)
+  • Moderate density 4.5 g/cm³
+  • Temperate Hycean (T_eq=291 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - LP 791-18 c
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - LP 791-18 c
+============================================================
+
+QHF Habitability Parameter: η = 0.131
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              2305.5 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.20
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/lp791-18c_results.json
+Initialized pipeline for TOI-1452 b
+
+############################################################
+# HYCEAN PIPELINE: TOI-1452 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - TOI-1452 b
+============================================================
+Hycean Candidate: True (score: 75/100)
+  • Radius 1.67 R_Earth in Hycean range
+  • Temperate Hycean (T_eq=283 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - TOI-1452 b
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - TOI-1452 b
+============================================================
+
+QHF Habitability Parameter: η = 0.369
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              2048.9 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.50
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/toi1452b_results.json
+Initialized pipeline for TOI-836 c
+
+############################################################
+# HYCEAN PIPELINE: TOI-836 c
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - TOI-836 c
+============================================================
+Hycean Candidate: True (score: 70/100)
+  • Radius 2.59 R_Earth in Hycean range
+  • Low density 3.0 g/cm³ suggests volatiles
+  • Very hot (T_eq=722 K) - marginal
+  • K dwarf host (good for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - TOI-836 c
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - TOI-836 c
+============================================================
+
+QHF Habitability Parameter: η = 0.000
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✗ Unlikely habitable
+
+Interpretation: Unlikely habitable (η < 0.1)
+
+Component Breakdown:
+  Energy flux:              87237.9 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.00
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/toi836c_results.json
+Initialized pipeline for HAT-P-26 b
+
+############################################################
+# HYCEAN PIPELINE: HAT-P-26 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - HAT-P-26 b
+============================================================
+Hycean Candidate: False (score: 45/100)
+  • Low density 0.4 g/cm³ suggests volatiles
+  • Very hot (T_eq=939 K) - marginal
+  • K dwarf host (good for spectroscopy)
+
+⚠ HAT-P-26 b did not pass screening - skipping spectroscopy and habitability
+
+✓ Results saved to data/outputs/hatp26b_results.json
+Initialized pipeline for TOI-421 c
+
+############################################################
+# HYCEAN PIPELINE: TOI-421 c
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - TOI-421 c
+============================================================
+Hycean Candidate: True (score: 75/100)
+  • Low density 2.8 g/cm³ suggests volatiles
+  • Temperate Hycean (T_eq=268 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - TOI-421 c
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - TOI-421 c
+============================================================
+
+QHF Habitability Parameter: η = 0.275
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              1652.3 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.20
+  Stability timescale:      15.0 Gyr
+
+✓ Results saved to data/outputs/toi421c_results.json
+Initialized pipeline for K2-138 g
+
+############################################################
+# HYCEAN PIPELINE: K2-138 g
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - K2-138 g
+============================================================
+Hycean Candidate: True (score: 65/100)
+  • Low density 1.6 g/cm³ suggests volatiles
+  • Hot Hycean (T_eq=370 K)
+  • K dwarf host (good for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - K2-138 g
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - K2-138 g
+============================================================
+
+QHF Habitability Parameter: η = 0.170
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              6023.3 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.50
+  Stability timescale:      15.0 Gyr
+
+✓ Results saved to data/outputs/k2-138g_results.json
+Initialized pipeline for WASP-39 b
+
+############################################################
+# HYCEAN PIPELINE: WASP-39 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - WASP-39 b
+============================================================
+Hycean Candidate: False (score: 40/100)
+  • Low density 0.2 g/cm³ suggests volatiles
+  • Very hot (T_eq=1055 K) - marginal
+  • G dwarf host (moderate spectroscopy signal)
+
+⚠ WASP-39 b did not pass screening - skipping spectroscopy and habitability
+
+✓ Results saved to data/outputs/wasp39b_results.json
+Initialized pipeline for 55 Cancri e
+
+############################################################
+# HYCEAN PIPELINE: 55 Cancri e
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - 55 Cancri e
+============================================================
+Hycean Candidate: False (score: 45/100)
+  • Radius 1.88 R_Earth in Hycean range
+  • Very hot (T_eq=1789 K) - marginal
+  • K dwarf host (good for spectroscopy)
+
+⚠ 55 Cancri e did not pass screening - skipping spectroscopy and habitability
+
+✓ Results saved to data/outputs/55cnce_results.json
+Initialized pipeline for HD 189733 b
+
+############################################################
+# HYCEAN PIPELINE: HD 189733 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - HD 189733 b
+============================================================
+Hycean Candidate: False (score: 45/100)
+  • Low density 1.4 g/cm³ suggests volatiles
+  • Very hot (T_eq=1161 K) - marginal
+  • K dwarf host (good for spectroscopy)
+
+⚠ HD 189733 b did not pass screening - skipping spectroscopy and habitability
+
+✓ Results saved to data/outputs/hd189733b_results.json
+Initialized pipeline for TRAPPIST-1 d
+
+############################################################
+# HYCEAN PIPELINE: TRAPPIST-1 d
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - TRAPPIST-1 d
+============================================================
+Hycean Candidate: True (score: 75/100)
+  • Low density 3.3 g/cm³ suggests volatiles
+  • Temperate Hycean (T_eq=259 K)
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - TRAPPIST-1 d
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - TRAPPIST-1 d
+============================================================
+
+QHF Habitability Parameter: η = 0.210
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✓ Potentially habitable
+
+Interpretation: Marginally habitable (0.1 < η < 0.5)
+
+Component Breakdown:
+  Energy flux:              1439.6 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.20
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/trappist1d_results.json
+Initialized pipeline for GJ 436 b
+
+############################################################
+# HYCEAN PIPELINE: GJ 436 b
+############################################################
+
+============================================================
+Stage 1: Hycean Screening - GJ 436 b
+============================================================
+Hycean Candidate: True (score: 50/100)
+  • Low density 1.9 g/cm³ suggests volatiles
+  • Very hot (T_eq=617 K) - marginal
+  • M dwarf host (optimal for spectroscopy)
+
+============================================================
+Stage 2: Spectroscopy Analysis - GJ 436 b
+============================================================
+⚠ Observation data not yet available
+
+============================================================
+Stage 3: QHF Habitability - GJ 436 b
+============================================================
+
+QHF Habitability Parameter: η = 0.000
+  Threshold: η > 0.1 for potential habitability
+  Assessment: ✗ Unlikely habitable
+
+Interpretation: Unlikely habitable (η < 0.1)
+
+Component Breakdown:
+  Energy flux:              46601.7 W/m²
+  Chemical disequilibrium:  50 kJ/mol
+  Liquid water fraction:    0.00
+  Stability timescale:      10.0 Gyr
+
+✓ Results saved to data/outputs/gj436b_results.json
+
+======================================================================
+BATCH PROCESSING SUMMARY
+======================================================================
+Planet               Hycean?    Score    Atm?     η        Habitable?
+----------------------------------------------------------------------
+LHS 1140 b           ✓ Yes      75/100   True     0.119    ✓ Yes
+K2-18 b              ✓ Yes      100/100  N/A      0.195    ✓ Yes
+TOI-270 d            ✓ Yes      85/100   N/A      0.191    ✓ Yes
+GJ 9827 d            ✓ Yes      70/100   N/A      0.000    ✗ No
+TOI-732 c            ✓ Yes      85/100   N/A      0.035    ✗ No
+GJ 1214 b            ✓ Yes      50/100   N/A      0.000    ✗ No
+TOI-421 b            ✓ Yes      100/100  N/A      0.404    ✓ Yes
+LP 791-18 c          ✓ Yes      80/100   N/A      0.131    ✓ Yes
+TOI-1452 b           ✓ Yes      75/100   N/A      0.369    ✓ Yes
+TOI-836 c            ✓ Yes      70/100   N/A      0.000    ✗ No
+HAT-P-26 b           ✗ No       45/100   N/A      N/A      N/A
+TOI-421 c            ✓ Yes      75/100   N/A      0.275    ✓ Yes
+K2-138 g             ✓ Yes      65/100   N/A      0.170    ✓ Yes
+WASP-39 b            ✗ No       40/100   N/A      N/A      N/A
+55 Cancri e          ✗ No       45/100   N/A      N/A      N/A
+HD 189733 b          ✗ No       45/100   N/A      N/A      N/A
+TRAPPIST-1 d         ✓ Yes      75/100   N/A      0.210    ✓ Yes
+GJ 436 b             ✓ Yes      50/100   N/A      0.000    ✗ No
+======================================================================
+
+Processed 18/18 planets

@@ -1,0 +1,34 @@
+{
+  "id": "toi270d",
+  "name": "TOI-270 d",
+  "planet": {
+    "radius": 2.53,
+    "radius_error": 0.10,
+    "mass": 11.9,
+    "mass_error": 2.0,
+    "period": 11.38,
+    "semi_major_axis": 0.0808,
+    "equilibrium_temp": 350
+  },
+  "star": {
+    "name": "TOI-270",
+    "Teff": 3506,
+    "radius": 0.384,
+    "mass": 0.390,
+    "luminosity": 0.0273,
+    "spectral_type": "M3V",
+    "distance_pc": 22.5,
+    "V_mag": 12.2
+  },
+  "observations": {
+    "note": "JWST NIRISS + NIRSpec + MIRI - need to find published spectra"
+  },
+  "published_results": {
+    "atmosphere_detected": true,
+    "molecules": {
+      "CS2": {"detected": true, "reference": "Rigby+2025"},
+      "complex_organics": {"detected": true, "note": "DMS, isobutylene, etc"}
+    },
+    "note": "Hot Hycean with complex chemistry"
+  }
+}

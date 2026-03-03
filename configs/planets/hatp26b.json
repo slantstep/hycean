@@ -1,0 +1,24 @@
+{
+  "id": "hatp26b",
+  "name": "HAT-P-26 b",
+  "planet": {
+    "radius": 6.24,
+    "mass": 18.8,
+    "period": 4.23,
+    "semi_major_axis": 0.0479,
+    "equilibrium_temp": 1000
+  },
+  "star": {
+    "name": "HAT-P-26",
+    "Teff": 5079,
+    "radius": 0.79,
+    "mass": 0.82,
+    "luminosity": 0.42,
+    "spectral_type": "K1V",
+    "distance_pc": 137,
+    "V_mag": 11.7
+  },
+  "observations": {
+    "note": "Hot Neptune, JWST observations"
+  }
+}

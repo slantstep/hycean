@@ -1,0 +1,24 @@
+{
+  "id": "toi421b",
+  "name": "TOI-421 b",
+  "planet": {
+    "radius": 2.68,
+    "mass": 7.17,
+    "period": 16.06,
+    "semi_major_axis": 0.115,
+    "equilibrium_temp": 350
+  },
+  "star": {
+    "name": "TOI-421",
+    "Teff": 3690,
+    "radius": 0.463,
+    "mass": 0.478,
+    "luminosity": 0.038,
+    "spectral_type": "M2V",
+    "distance_pc": 62.8,
+    "V_mag": 11.9
+  },
+  "observations": {
+    "note": "JWST data pending"
+  }
+}

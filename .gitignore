@@ -1,18 +1,45 @@
-# Data files (too large for git)
-data/
-*.h5
+# Data files (too large for GitHub)
+data/spectra/
+data/outputs/*.json
 *.fits
-*.csv
+*.h5
+*.dat
+
+# Keep example outputs folder structure
+!data/outputs/.gitkeep
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter
 .ipynb_checkpoints/
 
-# Environment
-hycean_environment.yml
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Outputs
-outputs/
-*.png
-*.pdf
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+*.yml
+!environment_template.yml
+venv/
+env/
+
+# Logs
+*.log
+
+# Personal config with absolute paths
+configs/personal_paths.json

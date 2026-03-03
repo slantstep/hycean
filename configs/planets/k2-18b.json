@@ -1,0 +1,35 @@
+{
+  "id": "k2-18b",
+  "name": "K2-18 b",
+  "planet": {
+    "radius": 2.61,
+    "radius_error": 0.09,
+    "mass": 8.63,
+    "mass_error": 1.35,
+    "period": 32.94,
+    "semi_major_axis": 0.1429,
+    "equilibrium_temp": 270
+  },
+  "star": {
+    "name": "K2-18",
+    "Teff": 3457,
+    "Teff_error": 50,
+    "radius": 0.411,
+    "mass": 0.359,
+    "luminosity": 0.0233,
+    "spectral_type": "M2.8V",
+    "distance_pc": 37.5,
+    "V_mag": 13.5
+  },
+  "observations": {
+    "note": "Will add JWST/NIRISS spectrum"
+  },
+  "published_results": {
+    "atmosphere_detected": true,
+    "molecules": {
+      "H2O": {"detected": true, "significance": 6.0, "reference": "Madhusudhan+2023"},
+      "CH4": {"detected": true, "significance": 5.0, "reference": "Madhusudhan+2023"},
+      "DMS": {"detected": "controversial", "significance": 2.4, "reference": "Madhusudhan+2025"}
+    }
+  }
+}

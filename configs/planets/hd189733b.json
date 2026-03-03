@@ -1,0 +1,24 @@
+{
+  "id": "hd189733b",
+  "name": "HD 189733 b",
+  "planet": {
+    "radius": 11.4,
+    "mass": 376.0,
+    "period": 2.219,
+    "semi_major_axis": 0.0313,
+    "equilibrium_temp": 1200
+  },
+  "star": {
+    "name": "HD 189733",
+    "Teff": 5052,
+    "radius": 0.756,
+    "mass": 0.806,
+    "luminosity": 0.42,
+    "spectral_type": "K2V",
+    "distance_pc": 19.8,
+    "V_mag": 7.7
+  },
+  "observations": {
+    "note": "Hot Jupiter benchmark, JWST observations"
+  }
+}

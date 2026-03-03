@@ -1,0 +1,32 @@
+{
+  "id": "wasp39b",
+  "name": "WASP-39 b",
+  "planet": {
+    "radius": 13.74,
+    "mass": 90.5,
+    "period": 4.055,
+    "semi_major_axis": 0.0486,
+    "equilibrium_temp": 1116
+  },
+  "star": {
+    "name": "WASP-39",
+    "Teff": 5400,
+    "radius": 0.895,
+    "mass": 0.93,
+    "luminosity": 0.69,
+    "spectral_type": "G8V",
+    "distance_pc": 214
+  },
+  "observations": {
+    "note": "JWST data exists but not included in this test"
+  },
+  "published_results": {
+    "atmosphere_detected": true,
+    "molecules": {
+      "H2O": {"detected": true},
+      "CO2": {"detected": true},
+      "SO2": {"detected": true, "note": "First detection in exoplanet"}
+    },
+    "note": "Hot Jupiter - should score LOW on Hycean screening"
+  }
+}

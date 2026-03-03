@@ -1,0 +1,24 @@
+{
+  "id": "gj436b",
+  "name": "GJ 436 b",
+  "planet": {
+    "radius": 4.01,
+    "mass": 22.2,
+    "period": 2.644,
+    "semi_major_axis": 0.0287,
+    "equilibrium_temp": 642
+  },
+  "star": {
+    "name": "GJ 436",
+    "Teff": 3416,
+    "radius": 0.464,
+    "mass": 0.507,
+    "luminosity": 0.0282,
+    "spectral_type": "M2.5V",
+    "distance_pc": 10.2,
+    "V_mag": 10.7
+  },
+  "observations": {
+    "note": "Warm Neptune, JWST observations"
+  }
+}

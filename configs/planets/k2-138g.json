@@ -1,0 +1,24 @@
+{
+  "id": "k2-138g",
+  "name": "K2-138 g",
+  "planet": {
+    "radius": 3.44,
+    "mass": 12.0,
+    "period": 41.97,
+    "semi_major_axis": 0.228,
+    "equilibrium_temp": 300
+  },
+  "star": {
+    "name": "K2-138",
+    "Teff": 4583,
+    "radius": 0.683,
+    "mass": 0.726,
+    "luminosity": 0.23,
+    "spectral_type": "K3V",
+    "distance_pc": 107,
+    "V_mag": 12.2
+  },
+  "observations": {
+    "note": "Multi-planet system, temperate"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "toi732c",
+  "name": "TOI-732 c",
+  "planet": {
+    "radius": 2.37,
+    "radius_error": 0.08,
+    "mass": 10.5,
+    "mass_error": 1.8,
+    "period": 12.25,
+    "semi_major_axis": 0.0917,
+    "equilibrium_temp": 380
+  },
+  "star": {
+    "name": "TOI-732",
+    "Teff": 3980,
+    "radius": 0.491,
+    "mass": 0.518,
+    "luminosity": 0.0521,
+    "spectral_type": "M1V",
+    "distance_pc": 41.2,
+    "V_mag": 12.8
+  },
+  "observations": {
+    "note": "JWST NIRISS + NIRSpec + MIRI"
+  },
+  "published_results": {
+    "atmosphere_detected": true,
+    "molecules": {
+      "CH4": {"detected": true, "reference": "Rigby+2025"},
+      "complex_organics": {"detected": "tentative", "note": "DMS, isobutylene, diethyl sulfide"}
+    }
+  }
+}

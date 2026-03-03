@@ -1,0 +1,166 @@
+{
+  "planets": [
+    {
+      "id": "lhs1140b",
+      "name": "LHS 1140 b",
+      "config_file": "configs/planets/lhs1140b.json",
+      "status": "analyzed",
+      "priority": "high",
+      "expected_hycean": true,
+      "category": "temperate_hycean"
+    },
+    {
+      "id": "k2-18b",
+      "name": "K2-18 b",
+      "config_file": "configs/planets/k2-18b.json",
+      "status": "pending_spectra",
+      "priority": "high",
+      "expected_hycean": true,
+      "category": "temperate_hycean"
+    },
+    {
+      "id": "toi270d",
+      "name": "TOI-270 d",
+      "config_file": "configs/planets/toi270d.json",
+      "status": "pending_spectra",
+      "priority": "high",
+      "expected_hycean": true,
+      "category": "hot_hycean"
+    },
+    {
+      "id": "gj9827d",
+      "name": "GJ 9827 d",
+      "config_file": "configs/planets/gj9827d.json",
+      "status": "pending_spectra",
+      "priority": "medium",
+      "expected_hycean": false,
+      "category": "too_hot"
+    },
+    {
+      "id": "toi732c",
+      "name": "TOI-732 c",
+      "config_file": "configs/planets/toi732c.json",
+      "status": "pending_spectra",
+      "priority": "medium",
+      "expected_hycean": false,
+      "category": "too_hot"
+    },
+    {
+      "id": "gj1214b",
+      "name": "GJ 1214 b",
+      "config_file": "configs/planets/gj1214b.json",
+      "status": "pending_spectra",
+      "priority": "high",
+      "expected_hycean": true,
+      "category": "hot_hycean"
+    },
+    {
+      "id": "toi421b",
+      "name": "TOI-421 b",
+      "config_file": "configs/planets/toi421b.json",
+      "status": "pending_spectra",
+      "priority": "medium",
+      "expected_hycean": true,
+      "category": "temperate_hycean"
+    },
+    {
+      "id": "lp791-18c",
+      "name": "LP 791-18 c",
+      "config_file": "configs/planets/lp791-18c.json",
+      "status": "pending_spectra",
+      "priority": "medium",
+      "expected_hycean": true,
+      "category": "hot_hycean"
+    },
+    {
+      "id": "toi1452b",
+      "name": "TOI-1452 b",
+      "config_file": "configs/planets/toi1452b.json",
+      "status": "pending_spectra",
+      "priority": "high",
+      "expected_hycean": true,
+      "category": "temperate_hycean"
+    },
+    {
+      "id": "toi836c",
+      "name": "TOI-836 c",
+      "config_file": "configs/planets/toi836c.json",
+      "status": "pending_spectra",
+      "priority": "low",
+      "expected_hycean": false,
+      "category": "too_hot"
+    },
+    {
+      "id": "hatp26b",
+      "name": "HAT-P-26 b",
+      "config_file": "configs/planets/hatp26b.json",
+      "status": "pending_spectra",
+      "priority": "low",
+      "expected_hycean": false,
+      "category": "too_large"
+    },
+    {
+      "id": "toi421c",
+      "name": "TOI-421 c",
+      "config_file": "configs/planets/toi421c.json",
+      "status": "pending_spectra",
+      "priority": "medium",
+      "expected_hycean": true,
+      "category": "cold_hycean"
+    },
+    {
+      "id": "k2-138g",
+      "name": "K2-138 g",
+      "config_file": "configs/planets/k2-138g.json",
+      "status": "pending_spectra",
+      "priority": "medium",
+      "expected_hycean": true,
+      "category": "temperate_hycean"
+    },
+    {
+      "id": "wasp39b",
+      "name": "WASP-39 b",
+      "config_file": "configs/planets/wasp39b.json",
+      "status": "config_only",
+      "priority": "low",
+      "expected_hycean": false,
+      "category": "hot_jupiter"
+    },
+    {
+      "id": "55cnce",
+      "name": "55 Cancri e",
+      "config_file": "configs/planets/55cnce.json",
+      "status": "pending_spectra",
+      "priority": "low",
+      "expected_hycean": false,
+      "category": "ultra_hot"
+    },
+    {
+      "id": "hd189733b",
+      "name": "HD 189733 b",
+      "config_file": "configs/planets/hd189733b.json",
+      "status": "pending_spectra",
+      "priority": "low",
+      "expected_hycean": false,
+      "category": "hot_jupiter"
+    },
+    {
+      "id": "trappist1d",
+      "name": "TRAPPIST-1 d",
+      "config_file": "configs/planets/trappist1d.json",
+      "status": "pending_spectra",
+      "priority": "low",
+      "expected_hycean": false,
+      "category": "rocky"
+    },
+    {
+      "id": "gj436b",
+      "name": "GJ 436 b",
+      "config_file": "configs/planets/gj436b.json",
+      "status": "pending_spectra",
+      "priority": "low",
+      "expected_hycean": false,
+      "category": "too_large"
+    }
+  ]
+}

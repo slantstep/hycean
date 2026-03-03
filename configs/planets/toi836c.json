@@ -1,0 +1,24 @@
+{
+  "id": "toi836c",
+  "name": "TOI-836 c",
+  "planet": {
+    "radius": 2.59,
+    "mass": 9.6,
+    "period": 8.59,
+    "semi_major_axis": 0.077,
+    "equilibrium_temp": 657
+  },
+  "star": {
+    "name": "TOI-836",
+    "Teff": 5150,
+    "radius": 0.79,
+    "mass": 0.78,
+    "luminosity": 0.38,
+    "spectral_type": "K4V",
+    "distance_pc": 25.5,
+    "V_mag": 10.8
+  },
+  "observations": {
+    "note": "Hot sub-Neptune"
+  }
+}

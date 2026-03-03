@@ -1,0 +1,24 @@
+{
+  "id": "trappist1d",
+  "name": "TRAPPIST-1 d",
+  "planet": {
+    "radius": 0.788,
+    "mass": 0.297,
+    "period": 4.049,
+    "semi_major_axis": 0.02228,
+    "equilibrium_temp": 228
+  },
+  "star": {
+    "name": "TRAPPIST-1",
+    "Teff": 2566,
+    "radius": 0.1192,
+    "mass": 0.0898,
+    "luminosity": 0.000525,
+    "spectral_type": "M8V",
+    "distance_pc": 12.4,
+    "V_mag": 18.8
+  },
+  "observations": {
+    "note": "Rocky planet in HZ, JWST observations 2023"
+  }
+}

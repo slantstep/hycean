@@ -1,0 +1,24 @@
+{
+  "id": "lp791-18c",
+  "name": "LP 791-18 c",
+  "planet": {
+    "radius": 1.42,
+    "mass": 2.34,
+    "period": 4.999,
+    "semi_major_axis": 0.0326,
+    "equilibrium_temp": 380
+  },
+  "star": {
+    "name": "LP 791-18",
+    "Teff": 2960,
+    "radius": 0.171,
+    "mass": 0.139,
+    "luminosity": 0.0018,
+    "spectral_type": "M6V",
+    "distance_pc": 26.5,
+    "V_mag": 16.8
+  },
+  "observations": {
+    "note": "JWST observations 2023"
+  }
+}

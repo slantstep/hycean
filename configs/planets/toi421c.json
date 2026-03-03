@@ -1,0 +1,24 @@
+{
+  "id": "toi421c",
+  "name": "TOI-421 c",
+  "planet": {
+    "radius": 3.14,
+    "mass": 16.0,
+    "period": 35.68,
+    "semi_major_axis": 0.177,
+    "equilibrium_temp": 243
+  },
+  "star": {
+    "name": "TOI-421",
+    "Teff": 3690,
+    "radius": 0.463,
+    "mass": 0.478,
+    "luminosity": 0.038,
+    "spectral_type": "M2V",
+    "distance_pc": 62.8,
+    "V_mag": 11.9
+  },
+  "observations": {
+    "note": "Cold Hycean candidate"
+  }
+}

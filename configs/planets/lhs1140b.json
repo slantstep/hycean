@@ -1,0 +1,66 @@
+{
+  "name": "LHS 1140 b",
+  "planet": {
+    "radius": 1.730,
+    "radius_error": 0.025,
+    "mass": 5.60,
+    "mass_error": 0.19,
+    "period": 24.73723,
+    "semi_major_axis": 0.0936,
+    "equilibrium_temp": 230,
+    "transit_depth_ppm": 5500
+  },
+  "star": {
+    "name": "LHS 1140",
+    "Teff": 3216,
+    "Teff_error": 50,
+    "radius": 0.2139,
+    "radius_error": 0.0070,
+    "mass": 0.146,
+    "luminosity": 0.00468,
+    "spectral_type": "M4.5V",
+    "distance_pc": 14.98,
+    "V_mag": 14.15
+  },
+  "observations": {
+    "NIRISS": {
+      "date": "2023-12-01",
+      "program_id": "GO-6543",
+      "wavelength_range": [0.6, 2.8],
+      "spectrum_file": "/Users/uduakken/lhs1140_project/spectra/published/niriss_cadieux2024.txt",
+      "reference": "Cadieux et al. 2024"
+    },
+    "NIRSpec_G235H": {
+      "date": "2023-07-15",
+      "program_id": "GO-2334",
+      "wavelength_range": [1.7, 3.2],
+      "spectrum_file": "/Users/uduakken/lhs1140_project/spectra/published/nirspec_g235h_damiano2024.txt",
+      "reference": "Damiano et al. 2024"
+    },
+    "NIRSpec_G395H": {
+      "date": "2023-07-15",
+      "program_id": "GO-2334",
+      "wavelength_range": [2.7, 5.2],
+      "spectrum_file": "/Users/uduakken/lhs1140_project/spectra/published/nirspec_g395h_damiano2024.txt",
+      "reference": "Damiano et al. 2024"
+    }
+  },
+  "published_results": {
+    "atmosphere_detected": true,
+    "rayleigh_scattering": {
+      "detected": true,
+      "significance": 2.3,
+      "reference": "Cadieux et al. 2024"
+    },
+    "molecules": {
+      "H2": {"detected": false, "ruled_out_sigma": 10},
+      "N2": {"detected": "tentative", "significance": 2.3},
+      "H2O": {"detected": "tentative", "significance": 3.0}
+    },
+    "stellar_contamination": {
+      "TLS_detected": true,
+      "faculae_coverage": 0.20,
+      "faculae_temp": 3293
+    }
+  }
+}
