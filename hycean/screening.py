@@ -79,15 +79,18 @@ def hycean_candidate_screen(planet_params, star_params):
             reasons.append(f"Very hot (T_eq={T_eq:.0f} K) - marginal")
     
     # Criterion 4: Stellar type (20 points)
-    if star_params['Teff'] < 4000:
+    if star_params['Teff'] < 3900:
         score += 20
         reasons.append("M dwarf host (optimal for spectroscopy)")
-    elif star_params['Teff'] < 5200:
+    elif star_params['Teff'] < 5300:
         score += 15
         reasons.append("K dwarf host (good for spectroscopy)")
     elif star_params['Teff'] < 6000:
         score += 10
         reasons.append("G dwarf host (moderate spectroscopy signal)")
+    elif star_params['Teff'] < 7300:
+        score += 5
+        reasons.append("F dwarf host")
     
     # Threshold: 50 points to be considered candidate
     return score >= 50, score, reasons
