@@ -1,11 +1,11 @@
-# Data files (too large for GitHub)
+# Data files 
 data/spectra/
 data/outputs/*.json
 *.fits
 *.h5
 *.dat
 
-# Keep example outputs folder structure
+# Example outputs folder structure
 !data/outputs/.gitkeep
 
 # Python
