@@ -57,3 +57,15 @@ Supported formats:
 - Simple 3-column ASCII
 
 Place spectrum files in `data/spectra/` and update planet config files accordingly.
+
+
+## Data Access
+
+### JWST Spectra
+- **MAST Archive:** https://mast.stsci.edu/
+- **Published papers:** Check supplementary materials
+- **Contact authors:** For unpublished reduced data
+
+### HST Spectra
+- **MAST Archive:** https://archive.stsci.edu/hst/
+- **Published papers:** Often include data tables
